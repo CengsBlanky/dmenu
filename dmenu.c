@@ -83,7 +83,7 @@ calcoffsets(void)
 	int i, n;
 
 	if (lines > 0)
-		n = (lines * bh);
+		n = lines * bh;
 	else
 		n = mw - (promptw + inputw + TEXTW("<") + TEXTW(">"));
 	/* calculate which items will begin the next page and previous page */
