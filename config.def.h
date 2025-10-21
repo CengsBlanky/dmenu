@@ -7,9 +7,10 @@ static int min_width = 600;                    /* minimum width when centered */
 static const float menu_height_ratio = 4.0f;  /* This is the ratio used in the original calculation */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
+	"Noto Sans SC:size=14",
+    "Noto Color Emoji:size=14",
 	"SauceCodePro Nerd Font:size=14",
 	"TsangerJinKai05:size=14",
-    "Noto Color Emoji:size=14"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
